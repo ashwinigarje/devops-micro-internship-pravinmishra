@@ -19,8 +19,7 @@ Create the `.claude/agents/` directory and add all required agent files.
 ### Evidence
 
 #### Screenshot 1 — VS Code sidebar showing `.claude/agents/` with all 3 files
-
-Add your screenshot here.
+![agents](./screenshots/assig-4-ss1.PNG)
 
 ---
 
@@ -34,33 +33,33 @@ Analyze the configuration differences between the three agents and demonstrate u
 
 #### 1. Why does the cost optimizer use Haiku instead of Sonnet?
 
-Add your answer here...
+The cost optimizer uses Haiku because it is fast, low-cost and good for simple analysis tasks.It can quickly find places where costs can be reduced without using the more advanced Sonnet model.This helps save API costs while still giving useful suggestions.
 
 ---
 
 #### 2. Why does the security auditor NOT have Write in its tools list?
 
-Add your answer here...
+The security auditor is designed to analysis the check the code for report security problems, not to change it and not modify code.Keeping the Write permission disabled prevents accidental or unauthorized changes and makes sure the audit stays safe and reliable.
+
 
 ---
 
 #### 3. Why does the tf-writer use `inherit` instead of a specific model?
 
-Add your answer here...
-
+The tf-writer uses inherit instead of a specific model because it automatically uses the same model as the main Claude Code session. This gives users more flexibility and removes the need to set a fixed model.If the main model changes,the tf-writer will use the new one automatically without any extra configuration.
 ---
 
 ### Evidence
 
 #### Screenshot 2 — `security-auditor.md` frontmatter showing model and tools configuration
 
-Add your screenshot here.
+![agents](./screenshots/assig-4-ss2.PNG)
 
 ---
 
 #### Screenshot 3 — `cost-optimizer.md` frontmatter showing the model and tools configuration
 
-Add your screenshot here.
+![agents](./screenshots/assig-4-ss3.PNG)
 
 ---
 
@@ -74,14 +73,14 @@ Trigger the security auditor agent and analyze the generated security report for
 
 #### Screenshot 4 — The delegation message showing Claude launched the security-auditor
 
-Add your screenshot here.
+![agents](./screenshots/assig-4-ss4.png)
 
 ---
 
 #### Screenshot 5 — Security audit report output
 
-Add your screenshot here.
-
+![audit](./screenshots/assig-4-ss5.png)
+![audit](./screenshots/assig-4-ss5.1.png)
 ---
 
 # Task 4 — Run the Cost Optimizer
@@ -94,7 +93,11 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 #### Screenshot 6 — The full cost optimization report
 
-Add your screenshot here.
+![audit](./screenshots/assig-4-ss6.png)
+
+![audit](./screenshots/assig-4-ss6.1.png)
+
+![audit](./screenshots/assig-4-ss6.2.png)
 
 ---
 
@@ -110,22 +113,24 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
+https://github.com/ashwinigarje/Ultimate-Agentic-DevOps-with-Claude-Code
+
 `__________________________`
 
 ---
 
 # Completion Checklist
 
-- [ ] `.claude/agents/` folder contains all 3 agent files
-- [ ] Screenshot 2 shows correct `security-auditor.md` configuration
-- [ ] Screenshot 3 shows correct `cost-optimizer.md` configuration
-- [ ] All 3 written answers completed 
-- [ ] Security auditor executed successfully
-- [ ] Cost optimizer executed successfully
-- [ ] Security report is visible with findings
-- [ ] Cost report is visible with recommendations
-- [ ] All required screenshots added
-- [ ] GitHub repo updated with agents
+- ✅ `.claude/agents/` folder contains all 3 agent files
+- ✅ Screenshot 2 shows correct `security-auditor.md` configuration
+- ✅ Screenshot 3 shows correct `cost-optimizer.md` configuration
+- ✅ All 3 written answers completed 
+- ✅ Security auditor executed successfully
+- ✅ Cost optimizer executed successfully
+- ✅ Security report is visible with findings
+- ✅ Cost report is visible with recommendations
+- ✅ All required screenshots added
+- ✅ GitHub repo updated with agents
 
 ---
 
