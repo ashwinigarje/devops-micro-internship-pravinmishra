@@ -45,7 +45,6 @@ The security auditor is designed to analysis the check the code for report secur
 ---
 
 #### 3. Why does the tf-writer use `inherit` instead of a specific model?
-
 The tf-writer uses inherit instead of a specific model because it automatically uses the same model as the main Claude Code session. This gives users more flexibility and removes the need to set a fixed model.If the main model changes,the tf-writer will use the new one automatically without any extra configuration.
 ---
 
