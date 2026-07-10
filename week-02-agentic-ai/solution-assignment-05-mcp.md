@@ -19,8 +19,9 @@ Generate a GitHub Personal Access Token (PAT) that will be used for MCP authenti
 ### Evidence
 
 #### Screenshot 1 — GitHub token creation page showing the selected scopes (`repo`, `read:user`) — token value must NOT be visible
+![repo](./screenshots/assig5-ss1.PNG)
 
-Add your screenshot here.
+![read-user](./screenshots/assig5-ss1.1.PNG)
 
 ---
 
@@ -34,7 +35,7 @@ Create and configure the `.mcp.json` file to define the GitHub MCP server.
 
 #### Screenshot 2 — `.mcp.json` open in VS Code showing the full configuration
 
-Add your screenshot here.
+![read-user](./screenshots/assig5-mcpjson-ss2.PNG)
 
 ---
 
@@ -48,7 +49,7 @@ Store your GitHub token securely in `.claude/settings.local.json` and ensure it 
 
 #### Screenshot 3 — `settings.local.json` open in VS Code showing the `env` section — **blur or cover the actual GitHub token value**
 
-Add your screenshot here.
+![settinglocal](./screenshots/assig5-ss3.PNG)
 
 ---
 
@@ -62,7 +63,8 @@ Confirm that the GitHub MCP server is successfully connected inside Claude Code.
 
 #### Screenshot 4 — `/mcp` output showing `github: connected`
 
-Add your screenshot here.
+![github-connected](./screenshots/assig5-mcpserver-ss4.PNG)
+
 
 ---
 
@@ -76,7 +78,9 @@ Verify MCP functionality by retrieving real-time data from your GitHub account u
 
 #### Screenshot 5 — Claude's response showing the GitHub MCP tool call and the retrieved README.md content.
 
-Add your screenshot here.
+![github-MCP](./screenshots/assig5-ss6.PNG)
+
+![github-MCP](./screenshots/assig5-ss6.1.PNG) 
 
 ---
 
@@ -94,6 +98,8 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
+https://github.com/ashwinigarje/Ultimate-Agentic-DevOps-with-Claude-Code
+
 `__________________________`
 
 ---
@@ -102,21 +108,21 @@ Paste your forked repository URL here:
 
 Confirm below:
 
-- [ ] `settings.local.json` is added to `.gitignore`
-- [ ] GitHub token is NOT exposed in repository or screenshots
+- ✅ `settings.local.json` is added to `.gitignore`
+- ✅ GitHub token is NOT exposed in repository or screenshots
 
 ---
 
 # Completion Checklist
 
-- [ ] GitHub PAT created with correct scopes (`repo`, `read:user`)
-- [ ] `.mcp.json` created at project root
-- [ ] `.claude/settings.local.json` contains token (hidden in screenshot)
-- [ ] `.claude/settings.local.json` is NOT committed
-- [ ] `/mcp` shows GitHub connection as active
-- [ ] Live GitHub query returns real repository data
-- [ ] All required screenshots added
-- [ ] GitHub repository URL included
+- ✅ GitHub PAT created with correct scopes (`repo`, `read:user`)
+- ✅ `.mcp.json` created at project root
+- ✅ `.claude/settings.local.json` contains token (hidden in screenshot)
+- ✅ `.claude/settings.local.json` is NOT committed
+- ✅ `/mcp` shows GitHub connection as active
+- ✅ Live GitHub query returns real repository data
+- ✅ All required screenshots added
+- ✅ GitHub repository URL included
 
 ---
 
@@ -125,7 +131,7 @@ Confirm below:
 DevOps Micro Internship (DMI) is a project-based DevOps program run by Pravin Mishra (The CloudAdvisory) focused on real-world execution, systems thinking, and career readiness.
 
 It helps learners build strong DevOps foundations with hands-on experience.
-
+ 
 ---
 
 ## 📌 Resources
