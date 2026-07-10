@@ -20,7 +20,7 @@ Create the required `.claude/skills/` directory structure for all skills.
 
 #### Screenshot 1 — VS Code sidebar showing `.claude/skills/` folder with all 4 subfolders visible
 
-Add your screenshot here.
+![claude-skills](./screenshots/claude-skills-assig3-ss1.PNG)
 
 ---
 
@@ -34,13 +34,13 @@ Place all required skill files into their correct directories and verify their c
 
 #### Screenshot 2 — `.claude/skills/scaffold-terraform/` open in VS Code showing both `SKILL.md` and `template-spec.md`
 
-Add your screenshot here.
+![claude-skills](./screenshots/assig3-task2-ss2.PNG)
 
 ---
 
 #### Screenshot 3 — Screenshot 3 — `tf-plan/SKILL.md` frontmatter showing `allowed-tools: Bash, Read, Grep` (no Write) and `disable-model-invocation: true`
 
-Add your screenshot here.
+![tf-plan](./screenshots/tf-plan-assig3-task2-ss3.PNG)
 
 ---
 
@@ -54,13 +54,12 @@ Execute the `/scaffold-terraform` skill to generate a full Terraform infrastruct
 
 #### Screenshot 4 — Claude's response showing the scaffold complete with the file list
 
-Add your screenshot here.
-
+![scaffold-terraform](./screenshots/scaffold-terraform-assig3-ss4.PNG)
 ---
 
 #### Screenshot 5 — VS Code sidebar showing the `terraform/` folder with all generated files inside
 
-Add your screenshot here.
+![terraform](./screenshots/terraform-assig3-ss5.PNG)
 
 ---
 
@@ -74,7 +73,7 @@ Initialize Terraform and execute the `/tf-plan` skill to observe plan execution 
 
 #### Screenshot 6 — Claude's `/tf-plan` response showing it ran the command and analyzed the result (pass or auth error both count)
 
-Add your screenshot here.
+![tf-plan](./screenshots/task4-ss-6.PNG)
 
 ---
 
@@ -90,27 +89,31 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
+https://github.com/ashwinigarje/Ultimate-Agentic-DevOps-with-Claude-Code
+
 `__________________________`
 
 ## LinkedIn post URL
 
 Paste your forked repository URL here:
 
+https://www.linkedin.com/posts/ashwini-garje-b55042118_dmibypravinmishra-agenticai-claudecode-activity-7481272091112235008-Rzd0?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB0xl_EBTu2ANEK4EKCYa3XVtmy_LCDtTkQ
+
 `__________________________`
 ---
 
 # Completion Checklist
 
-- [ ] `.claude/skills/` folder created with all 4 skill folders
-- [ ] All skill files placed correctly
-- [ ] `tf-plan/SKILL.md` shows correct `allowed-tools` restrictions
-- [ ] `/scaffold-terraform` executed successfully
-- [ ] Terraform files generated inside `terraform/` folder
-- [ ] `terraform init` executed successfully
-- [ ] `/tf-plan` executed and output analyzed by Claude
-- [ ] All required screenshots added
-- [ ] GitHub repository URL included
-- [ ] LinkedIn post URL included
+- ✅ `.claude/skills/` folder created with all 4 skill folders
+- ✅ All skill files placed correctly
+- ✅ `tf-plan/SKILL.md` shows correct `allowed-tools` restrictions
+- ✅ `/scaffold-terraform` executed successfully
+- ✅ Terraform files generated inside `terraform/` folder
+- ✅ `terraform init` executed successfully
+- ✅ `/tf-plan` executed and output analyzed by Claude
+- ✅  All required screenshots added
+- ✅  GitHub repository URL included
+- ✅  LinkedIn post URL included
 
 ---
 
