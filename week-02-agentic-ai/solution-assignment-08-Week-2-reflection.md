@@ -46,13 +46,14 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
+![medium-blog](./screenshots/medium-blog.PNG)
+
 
 ---
 
 ### Submission Field
 
-Blog Link:
+Blog Link:https://medium.com/@ashwinigarje1424/week-2-reflection-df7391f1006b
 
 `__________________________________________`
 
@@ -92,7 +93,10 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
+
+![week2](./screenshots/assig8-linkedln.PNG)
+
+![week2](./screenshots/assig8-linkedlnp.PNG)
 
 ---
 
@@ -101,12 +105,35 @@ Add your screenshot here.
 LinkedIn Post Content (copy-paste here):
 
 ```
-Paste your LinkedIn post content here
+Week 2 - Reflection 🚀
+
+This week in my DevOps Micro Internship completely changed the way I think about AI.
+
+Before this week, I mainly used AI to generate code understand concepts or get quick answers whenever I got stuck. But now I see AI differently. When it is connected to real systems and configured with the right context, memory, permissions, and guardrails, it becomes much more than just an assistant it becomes a reliable engineering teammate.
+
+This week, I worked on tasks:
+✅ Connected Claude Code to GitHub using Model Context Protocol (MCP), enabling it to understand the real-time context of my repository.
+
+✅ Built AI safety guardrails using Hooks and Permissions to block dangerous commands like terraform destroy  and automatically log Terraform operations.
+
+✅ Configured persistent memory in Claude Code so it could remember project-specific rules across completely new sessions.
+
+✅ Created reusable DevOps workflows using custom slash commands.
+
+One of my favorite moments this week was watching Claude Code review my Terraform infrastructure. It identified security issues, explained why they mattered, and suggested practical improvements. That experience showed me that AI can do much more than answer questions—it can become a valuable engineering partner.
+
+The biggest lesson I learned is that the real power of Agentic AI is not just about generating code. It is about combining context, memory, permissions, hooks, reusable skills, and specialized agents to build AI systems that are secure, reliable, and consistent in real engineering workflows.
+
+I'm grateful to Pravin Mishra and the co-mentors Anjana Muthunayake, Nkechi Anna Ahanonye, Tanisha Borana Anuradha Iyer for the guidance, feedback, and hands-on learning. The practical assignments and support are making the concepts much easier to understand and apply.
+
+P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community ( https://lnkd.in/dJumNcj8 ).
+#DMIByPravinMishra #AgenticAI #ClaudeCode #DevOps
 ```
 
 ---
 
 ### LinkedIn Post Link:
+ https://www.linkedin.com/posts/ashwini-garje-b55042118_join-the-dmi-devops-micro-internship-activity-7481773920661065728-n9nd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB0xl_EBTu2ANEK4EKCYa3XVtmy_LCDtTkQ
 
 `__________________________________________`
 
@@ -124,15 +151,15 @@ Paste your LinkedIn post content here
 
 # Completion Checklist
 
-* [ ] Blog written with required structure
-* [ ] Blog includes at least 2–3 Week 2 topics
-* [ ] Blog is publicly accessible
-* [ ] LinkedIn post created
-* [ ] Required P.S. line included
-* [ ] LinkedIn post content copied in submission field
-* [ ] Blog link added
-* [ ] LinkedIn post link added
-* [ ] Screenshots added to GitHub repo
+* ✅  Blog written with required structure
+* ✅  Blog includes at least 2–3 Week 2 topics
+* ✅  Blog is publicly accessible
+* ✅  LinkedIn post created
+* ✅  Required P.S. line included
+* ✅  LinkedIn post content copied in submission field
+* ✅  Blog link added
+* ✅  LinkedIn post link added
+* ✅  Screenshots added to GitHub repo
 
 ---
 
