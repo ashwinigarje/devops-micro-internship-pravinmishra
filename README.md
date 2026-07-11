@@ -73,8 +73,8 @@ This is not a course. It is an internship-style program — real deployments, re
  Week 01 → Success Mindset
  [![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/) 
 
-<!-- Week 02 → Agentic AI with Claude Code -->
-<!-- [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) -->
+  Week 02 → Agentic AI with Claude Code
+ [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/)
 
 <!-- Week 03 → Linux for DevOps -->
 <!-- [![Week 03 – Linux](./badges/week-03.svg)](./week-03-linux-for-devops/) -->
@@ -136,7 +136,7 @@ This is not a course. It is an internship-style program — real deployments, re
 | 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | — | — |
 | 01 | Success Mindset | ✅ Completed | ✅ Solved | (https://www.linkedin.com/posts/ashwini-garje-b55042118_dmi-devops-agenticai-share-7478483038453112835-kqHz/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB0xl_EBTu2ANEK4EKCYa3XVtmy_LCDtTkQ)
    | https://medium.com/@ashwinigarje1424/my-2-0-version-d156e7bc6c01 |
-| 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
+| 02 | Agentic AI with Claude Code | ✅ Completed  |  ✅ Solved | https://www.linkedin.com/posts/ashwini-garje-b55042118_join-the-dmi-devops-micro-internship-activity-7481773920661065728-n9nd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB0xl_EBTu2ANEK4EKCYa3XVtmy_LCDtTkQ  https://www.linkedin.com/posts/ashwini-garje-b55042118_1a1a2e-16213e-dmibypravinmishra-ugcPost-7481743254967820288-9Yew/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB0xl_EBTu2ANEK4EKCYa3XVtmy_LCDtTkQ | https://medium.com/@ashwinigarje1424/week-2-reflection-df7391f1006b |
 | 03 | Linux for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
 | 04 | Bash Scripting | ⬜ Not Started | ⏳ Pending | — | — |
 | 05 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
