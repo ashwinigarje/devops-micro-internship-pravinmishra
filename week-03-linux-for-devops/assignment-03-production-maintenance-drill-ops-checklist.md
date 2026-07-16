@@ -412,7 +412,7 @@ Add your screenshot here.
 - ✅ Task 6: Screenshots (nginx -t fail, nginx -t pass, curl recovery) + Notes answered
 - ✅ Task 7: Screenshots (curl failure, curl recovery) + Notes answered
 - ✅ Task 8: Security & Reliability Notes answered
-- ✅ LinkedIn post published and URL submitted
+-    LinkedIn post published and URL submitted
 - ✅ Full Name visible in all required screenshots
 - ✅ No sensitive data exposed
 
