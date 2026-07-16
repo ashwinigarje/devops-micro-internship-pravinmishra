@@ -20,25 +20,24 @@ Verify that the deployed React application is reachable from the browser and con
 
 #### Screenshot 1 — Browser showing the React app with your Full Name visible on the UI
 
-Add your screenshot here.
+![react App](./screenshots/assig-3-ss1.png)
 
 ---
 
 #### Screenshot 2 — Output of `ip a`
-
-Add your screenshot here.
+![Ipa address](./screenshots/assig3-ipa-ss2.png)
 
 ---
 
 #### Screenshot 3 — Output of `sudo ss -tulpen`
 
-Add your screenshot here.
+![ss port open](./screenshots/assig3-port-ss3.png)
 
 ---
 
 #### Screenshot 4 — Output of `sudo ufw status`
 
-Add your screenshot here.
+![ufw](./screenshots/assig3-ufw-ss4.png)
 
 ---
 
@@ -48,19 +47,20 @@ Answer the following in your own words:
 
 **1. What proves Nginx is listening on 0.0.0.0:80?**
 
-Write your answer here.
-
+The sudo ss -tuln  enter this command proves that Nginx is listening on 0.0.0.0:80. The output shows LISTEN 0.0.0.0:80 which means Nginx is accepting HTTP connections on port 80 from all network interfaces.
+ex-tcp LISTEN  0 511  0.0.0.0:80  0.0.0.0:*  users:(("nginx",pid=1254,fd=5),("nginx",pid=1253,fd=5),("nginx" pid=1252,f
 ---
 
 **2. What proves SSH is active on port 22?**
-
-Write your answer here.
+The sudo ss -tuln enter this command shows LISTEN on port 22 proving that the SSH service is active and accepting incoming connections.The SSH service (sshd) is running and ready to accept remote
+ex- tcp  LISTEN  0 4096  0.0.0.0:22  0.0.0.0:*  users:(("sshd",pid=16175,fd=3),("systemd",pid=1,fd=76))
 
 ---
 
 **3. Did you find any unexpected open ports? Explain briefly.**
 
-Write your answer here.
+No,I did not find any unexpected open ports only port 22 for SSH and port 80 for Nginx are open.
+No unnecessary services were running, so the server is more secure.
 
 ---
 
@@ -74,20 +74,18 @@ Verify that Nginx is properly installed, running, enabled at boot, and safely co
 
 #### Screenshot 1 — Output of `systemctl status nginx --no-pager`
 
-Add your screenshot here.
+![nginx status](./screenshots/assig3-nginxstatus-ss5.png)
 
 ---
 
 #### Screenshot 2 — Output of `sudo nginx -t`
 
-Add your screenshot here.
-
+![nginx start](./screenshots/assig3-nginxT-ss6.png)
 ---
 
 #### Screenshot 3 — Output of `sudo ss -lptn '( sport = :80 )'`
 
-Add your screenshot here.
-
+![ss port](./screenshots/assig3-ss-ss7.png)
 ---
 
 ### Notes
@@ -96,13 +94,14 @@ Answer the following in your own words:
 
 **1. What happens if Nginx fails to restart in production?**
 
-Write your answer here.
+If Nginx fails to restart the website is not working and users cannot access it.New configuration changes will not be applied.Check the Nginx configuration using sudo nginx -t, fix the errors,also check logs and restart the service.
 
 ---
 
 **2. What's your basic rollback plan?**
 
-Write your answer here.
+If something goes wrong i will restore the previous working all configuration or backup.
+Then i will restart Nginx and check if the website is working properly than i will test the application to make sure everything is running normally.
 
 ---
 
@@ -116,19 +115,19 @@ Verify real traffic flow and analyze logs to understand system behavior and erro
 
 #### Screenshot 1 — Output of `sudo tail -n 30 /var/log/nginx/access.log`
 
-Add your screenshot here.
+![accesslog ](./screenshots/assig3-log-T3.1.png)
 
 ---
 
 #### Screenshot 2 — Output of `sudo tail -n 30 /var/log/nginx/error.log`
 
-Add your screenshot here.
+![error-log](./screenshots/assig3-errorlog-T3.2.png)
 
 ---
 
 #### Screenshot 3 — Output of `sudo journalctl -u nginx --no-pager -n 50`
 
-Add your screenshot here.
+![nginx](./screenshots/assig3-journalctl-T3.3.png)
 
 ---
 
@@ -141,19 +140,20 @@ Answer the following in your own words:
 - If yes, mention 1–2 example error lines from the logs and explain what each one means in simple terms.
 - If no, explain what it means if the error log is empty or shows no recent errors during your check.
 
-Write your answer here.
+
+I check the Nginx error log in file and found no error messages.The log only showed a notice: using inherited sockets from "5;6;" which is a normal message during an Nginx restart or reload This means Nginx is running correctly and no recent errors were found.
 
 ---
 
 **2. If there were no errors, what does that indicate about the system?**
 
-Write your answer here.
+I did not find any errors in the Nginx error log.The log only shows a normal [notice] message, this is not an error.This indicates that Nginx is running properly and the web server is working without any recent issues.
 
 ---
 
 **3. Based on the access logs, were your curl requests visible in the log entries? What does that prove about traffic flow?**
 
-Write your answer here.
+Yes, my curl requests were recorded in the Nginx access log file. The log shows is 200 OK status, which means the server received and processed the request successfully.This proves that traffic is reaching the server correctly.
 
 ---
 
@@ -167,26 +167,23 @@ Assess server capacity and detect potential performance or failure risks.
 
 #### Screenshot 1 — Output of `uptime`
 
-Add your screenshot here.
+![check uptime ](./screenshots/assig3-log-T3.1.png)
 
 ---
 
 #### Screenshot 2 — Output of `free -h`
 
-Add your screenshot here.
-
+![menory usage ](./screenshots/assig3-freemem-T4.2.png)
 ---
 
 #### Screenshot 3 — Output of `df -h`
 
-Add your screenshot here.
-
+![disk usage](./screenshots/assig3-diskspace-T4.3.png)
 ---
 
 #### Screenshot 4 — Output of `sudo du -sh /var/* | sort -h`
 
-Add your screenshot here.
-
+![/var](./screenshots/assig3-dush-T4.4.png)
 ---
 
 ### Notes
@@ -195,13 +192,18 @@ Answer the following in your own words:
 
 **1. Which resource looks most critical right now? (CPU/load, memory, or disk) Explain why.**
 
-Write your answer here.
+The disk usage looks the most important right now It is using 60% of the available storage, which is higher than CPU and memory usage. it is not critical yet, it should be monitored to prevent the disk from becoming full in the future.
+
+disk - /dev/root  6.7G  4.0G  2.7G  60% /  =>  60% -available storage
+memory- 344 MiB / 908 MiB- Enough free memory available
+CPU Load- load average: 0.00, 0.00, 0.00
+
 
 ---
 
 **2. What happens if disk becomes 100% full in a production server?**
 
-Write your answer here.
+If the disk usage reaches 100% full the server may stop working properly. New files, logs, and application data cannot be saved, and some services may fail or crash. This can cause downtime until enough disk space is freed.
 
 ---
 
@@ -215,20 +217,23 @@ Ensure the correct React build is deployed and Nginx is serving it properly.
 
 #### Screenshot 1 — Output of `ls -lah /var/www/html | head -n 20`
 
-Add your screenshot here.
 
+![html](./screenshots/assig3-nginxroot-T5.1.PNG)
+---
 ---
 
 #### Screenshot 2 — Output of `grep -R "Deployed by" -n /var/www/html 2>/dev/null | head`
 
-Add your screenshot here.
 
+![hteml](./screenshots/assig3-grephtml-T5.2.PNG)
+---
 ---
 
 #### Screenshot 3 — Output of `grep -n "try_files" /etc/nginx/sites-available/default`
 
-Add your screenshot here.
 
+![default](./screenshots/assig3-default-T5.3.PNG)
+---
 ---
 
 ### Notes
@@ -237,7 +242,8 @@ Answer the following in your own words:
 
 **1. How do you confirm that the correct version of the application is deployed?**
 
-Write your answer here.
+
+I checked the files in /var/www/html using the ls -lah command and confirmed that the React build files, such as index.html and the static folder, were present. Then I verified that my changes were included in the build using the grep command. Finally, I opened the application using the EC2 public IP in the browser and confirmed that the latest version of the React app was loading correctly through Nginx.
 
 ---
 
@@ -251,19 +257,19 @@ Simulate a real-world Nginx misconfiguration and recover the service safely.
 
 #### Screenshot 1 — Output of `sudo nginx -t` showing the syntax error (broken config)
 
-Add your screenshot here.
+![nginx error](./screenshots/assig3-nginxT-T6.1.PNG)
 
 ---
 
 #### Screenshot 2 — Output of `sudo nginx -t` showing syntax ok (fixed config)
 
-Add your screenshot here.
+![nginxt-ok](./screenshots/assig3-nginxT-T6.2.PNG)
 
 ---
 
 #### Screenshot 3 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-Add your screenshot here.
+![confirm-200ok](./screenshots/assig3-publicip-T6.3.PNG)
 
 ---
 
@@ -273,19 +279,20 @@ Answer the following in your own words:
 
 **1. What caused the configuration failure?**
 
-Write your answer here.
+The configuration failed because there was a syntax error in the Nginx configuration file(/etc/nginx/sies-avaibale/defualt). A missing ; or } caused nginx -t to fail. After fixing the configuration file, the test passed and Nginx started working correctly.
 
 ---
 
 **2. How did you fix the issue?**
 
-Write your answer here.
+I checked the Nginx configuration (/etc/nginx/sies-avaibale/defualt) using sudo nginx -t and found the syntax error. I fixed the missing ; in the configuration file, saved the changes, and tested the configuration again. After the test passed, I restarted Nginx successfully.
 
 ---
 
 **3. How can you avoid this kind of issue in real production systems?**
 
-Write your answer here.
+To avoid this issue in production, always test the application before deployment. Check the configuration with sudo nginx -t, verify that the latest build files are deployed, and test the website after deployment to make sure everything is working correctly.
+
 
 ---
 
@@ -299,13 +306,12 @@ Simulate missing deployment content and recover the application safely.
 
 #### Screenshot 1 — Output of `curl -I http://<public-ip>` showing failure (non-200 response)
 
-Add your screenshot here.
-
+![publicip](./screenshots/assig3-publicip-T7.1.PNG)
 ---
 
 #### Screenshot 2 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-Add your screenshot here.
+![publicip](./screenshots/assig3-publicIp-T7.2.PNG)
 
 ---
 
@@ -315,19 +321,19 @@ Answer the following in your own words:
 
 **1. What caused the application to break in this scenario?**
 
-Write your answer here
+The application stopped working because the files inside the /var/www/html folder were removed and replaced with an empty directory. Since important files like index.html were missing, Nginx could not load the React application, so the website became unavailable.
 
 ---
 
 **2. How did you fix the issue and restore the application?**
 
-Write your answer here.
+I restored the original deployment by removing the empty  files from /var/www/html directory and moving the backup directory back to this diretire /var/www/html. After that I restarted the Nginx service nad confim the recovery by sending a request to the application public IP The server returned a successful HTTP 200 response than confirming application it was working properly.
 
 ---
 
 **3. What steps would you take to prevent this kind of issue in real production systems?**
 
-Write your answer here.
+I will keep a backup of the /var/www/html directory before making any changes. I will test the deployment in a development environment first, verify the Nginx configuration, and check that the website is working properly after every deployment.
 
 ---
 
@@ -343,31 +349,30 @@ Answer the following in your own words:
 
 **1. Why is SSH key-based authentication more secure than sharing passwords?**
 
-Write your answer here.
+SSH key-based authentication is more secure because it uses a private and public key instead of a password. The private key stays only with the user and is difficult to guess or steal, which makes it much safer than sharing passwords.
 
 ---
 
 **2. Why should only required ports be open on a production server?**
 
-Write your answer here.
+Only the ports that are needed should be open. This keeps the server safe and reduces the chance of hackers getting access.
 
 ---
 
 **3. Why is it important for Nginx to be enabled on boot?**
-
-Write your answer here.
+Nginx should be enabled on boot so it starts automatically when the server restarts. This keeps the website available without needing to start Nginx manually.
 
 ---
 
 **4. What are the risks of sharing secrets, keys, or credentials publicly?**
 
-Write your answer here.
+Sharing secrets, keys, or passwords publicly is dangerous because anyone can use them to access your server or account. This can lead to data loss, security problems, or unauthorized changes.
 
 ---
 
 **5. Why should cloud resources be stopped or terminated when they are no longer needed?**
 
-Write your answer here.
+Cloud resources should be stopped or terminated when they are not needed to avoid extra costs. It also helps save resources and keeps the cloud environment clean.
 
 ---
 
@@ -399,17 +404,17 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1: Screenshots (browser, ip a, ss -tulpen, ufw status) + Notes answered
-- [ ] Task 2: Screenshots (nginx status, nginx -t, ss port 80) + Notes answered
-- [ ] Task 3: Screenshots (access log, error log, journalctl) + Notes answered
-- [ ] Task 4: Screenshots (uptime, free -h, df -h, du -sh) + Notes answered
-- [ ] Task 5: Screenshots (ls html, grep deployed by, grep try_files) + Notes answered
-- [ ] Task 6: Screenshots (nginx -t fail, nginx -t pass, curl recovery) + Notes answered
-- [ ] Task 7: Screenshots (curl failure, curl recovery) + Notes answered
-- [ ] Task 8: Security & Reliability Notes answered
-- [ ] LinkedIn post published and URL submitted
-- [ ] Full Name visible in all required screenshots
-- [ ] No sensitive data exposed
+- ✅ Task 1: Screenshots (browser, ip a, ss -tulpen, ufw status) + Notes answered
+- ✅ Task 2: Screenshots (nginx status, nginx -t, ss port 80) + Notes answered
+- ✅ Task 3: Screenshots (access log, error log, journalctl) + Notes answered
+- ✅ Task 4: Screenshots (uptime, free -h, df -h, du -sh) + Notes answered
+- ✅ Task 5: Screenshots (ls html, grep deployed by, grep try_files) + Notes answered
+- ✅ Task 6: Screenshots (nginx -t fail, nginx -t pass, curl recovery) + Notes answered
+- ✅ Task 7: Screenshots (curl failure, curl recovery) + Notes answered
+- ✅ Task 8: Security & Reliability Notes answered
+- ✅ LinkedIn post published and URL submitted
+- ✅ Full Name visible in all required screenshots
+- ✅ No sensitive data exposed
 
 ---
 
