@@ -383,14 +383,14 @@ Cloud resources should be stopped or terminated when they are not needed to avoi
 #### LinkedIn Post URL
 
 Paste your LinkedIn post URL here:
+https://www.linkedin.com/posts/ashwini-garje-b55042118_week-3-production-maintenance-drill-devops-activity-7484314717252087808-0YLY?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB0xl_EBTu2ANEK4EKCYa3XVtmy_LCDtTkQ
 
-`__________________________`
+
 
 ---
 
 #### Screenshot — Published LinkedIn post
-
-Add your screenshot here.
+![linkedlnpost](./screenshots/assig3-linkedlnPost.PNG)
 
 ---
 
@@ -412,7 +412,7 @@ Add your screenshot here.
 - ✅ Task 6: Screenshots (nginx -t fail, nginx -t pass, curl recovery) + Notes answered
 - ✅ Task 7: Screenshots (curl failure, curl recovery) + Notes answered
 - ✅ Task 8: Security & Reliability Notes answered
--    LinkedIn post published and URL submitted
+- ✅ LinkedIn post published and URL submitted
 - ✅ Full Name visible in all required screenshots
 - ✅ No sensitive data exposed
 
