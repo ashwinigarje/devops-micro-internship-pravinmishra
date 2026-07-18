@@ -415,8 +415,7 @@ It uses loops to repeat tasks and conditionals to make decisions.It also checks 
 Paste your LinkedIn post URL here:
 
 https://www.linkedin.com/posts/ashwini-garje-b55042118_this-bash-scripting-assignment-helped-me-ugcPost-7484234824275206145-od0P/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB0xl_EBTu2ANEK4EKCYa3XVtmy_LCDtTkQ
-
----
+----
 
 #### Screenshot — Published LinkedIn post
 

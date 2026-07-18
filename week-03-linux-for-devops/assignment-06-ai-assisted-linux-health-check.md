@@ -489,11 +489,7 @@ Verify: Confirmed the server was healthy with HTTP 200 OK and and application is
 #### LinkedIn Post URL
 
 Paste your LinkedIn post URL here:
-
-https://www.linkedin.com/posts
-ashwini-garje-b55042118_this-week-i-worked-on-building-an-ai-assisted-ugcPost-7484287445879087104-WA6U/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB0xl_EBTu2ANEK4EKCYa3XVtmy_LCDtTkQ
-
----
+https://www.linkedin.com/posts/ashwini-garje-b55042118_this-week-i-worked-on-building-an-ai-assisted-ugcPost-7484287445879087104-WA6U/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB0xl_EBTu2ANEK4EKCYa3XVtmy_LCDtTkQ
 
 #### Screenshot — Published LinkedIn post
 ![LinkedlnPost](./screenshots/assig-6-linkedlnPost.PNG)
