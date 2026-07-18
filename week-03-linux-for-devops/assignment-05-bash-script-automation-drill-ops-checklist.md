@@ -414,14 +414,13 @@ It uses loops to repeat tasks and conditionals to make decisions.It also checks 
 
 Paste your LinkedIn post URL here:
 
-`__________________________`
+https://www.linkedin.com/posts/ashwini-garje-b55042118_this-bash-scripting-assignment-helped-me-ugcPost-7484234824275206145-od0P/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB0xl_EBTu2ANEK4EKCYa3XVtmy_LCDtTkQ
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
-
+![LinkedlnPost](./screenshots/assig-5-linkedlnPost.PNG)
 ---
 
 # Submission Instructions
@@ -446,7 +445,7 @@ Add your screenshot here.
 - ✅ Task 8: Final automation script created and run (Screenshots 1–3, Notes answered)
 - ✅ All scripts run without errors
 - ✅ Full Name visible in all required screenshots
--  LinkedIn post published and URL submitted
+- ✅ LinkedIn post published and URL submitted
 - ✅ No sensitive data exposed
 
 ---
