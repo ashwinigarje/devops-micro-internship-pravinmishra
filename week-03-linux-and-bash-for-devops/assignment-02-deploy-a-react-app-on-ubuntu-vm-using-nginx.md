@@ -140,9 +140,9 @@ Verify the React application is publicly accessible via the server's public IP.
 #### LinkedIn Post URL
 
 Paste your LinkedIn post URL here:
-https://lnkd.in/p/dBaSZQRX
 
-`Add your URL here`
+
+`https://www.linkedin.com/posts/ashwini-garje-b55042118_dmibypravinmishra-react-nginx-share-7482880281801285632-yOum/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB0xl_EBTu2ANEK4EKCYa3XVtmy_LCDtTkQ`
 
 ---
 
