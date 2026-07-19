@@ -330,31 +330,31 @@ Answer the following in your own words:
 
 **1. Which three checks failed?**
 
-Add your answer here.
+Nginx service is not active,Port 80 is not listening, Local HTTP check returned status.
+
 
 ---
 
 **2. What evidence supports the conclusion that Nginx is unavailable?**
 
-Add your answer here.
+The Nginx is not active, port 80 is not listening, and local HTTP request returned status 000.these results show that Nginx is inactive and the application can't receive HTTP traffic. 
 
 ---
 
 **3. Did Claude execute the recovery command? Why is that important?**
 
-Add your answer here.
+No, Claude only showed the recovery command.This is important i verify the evidence and approve the action before making a change to the server.It prevents an AI tool from changing the service automatically during an incident. 
 
 ---
 
 **4. Which phase of the Agentic Loop is represented by the Bash report?**
 
-Add your answer here.
-
+The Bash report represents the Gather phase script showed current status Nginx, port 80, the HTTP response, disk usage, memory, and recent logs. 
 ---
 
 **5. Which phase is represented by Claude's explanation?**
 
-Add your answer here.
+Claude explanation represents the Analyze phase it reads the evidence, identifies the failed checks, explains the likely cause, and recommends a recovery command for human review. 
 
 ---
 
