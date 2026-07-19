@@ -131,26 +131,9 @@ This is not a course. It is an internship-style program — real deployments, re
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
 | 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | — | — |
-<<<<<<< HEAD
-| 01 | Success Mindset | ✅ Completed | ✅ Solved | (https://www.linkedin.com/posts/ashwini-garje-b55042118_dmi-devops-agenticai-share-7478483038453112835-kqHz/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB0xl_EBTu2ANEK4EKCYa3XVtmy_LCDtTkQ)
-   | https://medium.com/@ashwinigarje1424/my-2-0-version-d156e7bc6c01 |
-| 02 | Agentic AI with Claude Code | ✅ Completed  |  ✅ Solved | https://www.linkedin.com/posts/ashwini-garje-b55042118_join-the-dmi-devops-micro-internship-activity-7481773920661065728-n9nd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB0xl_EBTu2ANEK4EKCYa3XVtmy_LCDtTkQ  https://www.linkedin.com/posts/ashwini-garje-b55042118_1a1a2e-16213e-dmibypravinmishra-ugcPost-7481743254967820288-9Yew/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB0xl_EBTu2ANEK4EKCYa3XVtmy_LCDtTkQ | https://medium.com/@ashwinigarje1424/week-2-reflection-df7391f1006b |
-| 03 | Linux for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
-| 04 | Bash Scripting | ⬜ Not Started | ⏳ Pending | — | — |
-| 05 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
-| 06 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
-| 07 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
-| 08 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
-| 09 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
-| 10 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
-| 11 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
-| 12 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
-| 13 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
-| 14 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
-=======
-| 01 | Success Mindset | ⬜ Not Started | ⏳ Pending | — | — |
-| 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
-| 03 | Linux & Bash for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
+| 01 | Success Mindset | ✅ Completed | ✅ Solved | (https://www.linkedin.com/posts/ashwini-garje-b55042118_dmi-devops-agenticai-share-7478483038453112835-kqHz/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB0xl_EBTu2ANEK4EKCYa3XVtmy_LCDtTkQ) |  https://medium.com/@ashwinigarje1424/my-2-0-version-d156e7bc6c01 |
+| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/ashwini-garje-b55042118_join-the-dmi-devops-micro-internship-activity-7481773920661065728-n9nd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB0xl_EBTu2ANEK4EKCYa3XVtmy_LCDtTkQ   https://www.linkedin.com/posts/ashwini-garje-b55042118_1a1a2e-16213e-dmibypravinmishra-ugcPost-7481743254967820288-9Yew/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB0xl_EBTu2ANEK4EKCYa3XVtmy_LCDtTkQ| https://medium.com/@ashwinigarje1424/week-2-reflection-df7391f1006b  |
+| 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Solved| — | — |
 | 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
@@ -161,7 +144,6 @@ This is not a course. It is an internship-style program — real deployments, re
 | 11 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
 | 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
 | 13 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
->>>>>>> upstream/main
 
 **Status:** ⬜ Not Started &nbsp;|&nbsp; 🔄 In Progress &nbsp;|&nbsp; ✅ Completed<br>
 **Assignment:** ⏳ Pending &nbsp;|&nbsp; ✅ Solved
