@@ -91,9 +91,9 @@ Run three tests that prove Claude remembers what you told it — without you say
 ## Linkedin Post Link
 
 Paste your Linkedin post link here:
-https://www.linkedin.com/posts/ashwini-garje-b55042118_1a1a2e-16213e-dmibypravinmishra-ugcPost-7481743254967820288-9Yew/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB0xl_EBTu2ANEK4EKCYa3XVtmy_LCDtTkQ
 
-`Add your URL here`
+
+`https://www.linkedin.com/posts/ashwini-garje-b55042118_1a1a2e-16213e-dmibypravinmishra-ugcPost-7481743254967820288-9Yew/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB0xl_EBTu2ANEK4EKCYa3XVtmy_LCDtTkQ`
 
 ---
 
@@ -101,13 +101,7 @@ https://www.linkedin.com/posts/ashwini-garje-b55042118_1a1a2e-16213e-dmibypravin
 
 Paste your forked repository URL here:
 
-<<<<<<< HEAD:week-02-agentic-ai/solution-assignment-07-memory.md
-https://github.com/ashwinigarje/Ultimate-Agentic-DevOps-with-Claude-Code
-
-`__________________________`
-=======
-`Add your URL here`
->>>>>>> upstream/main:week-02-agentic-ai/assignment-07-memory.md
+`https://github.com/ashwinigarje/Ultimate-Agentic-DevOps-with-Claude-Code`
 
 ---
 

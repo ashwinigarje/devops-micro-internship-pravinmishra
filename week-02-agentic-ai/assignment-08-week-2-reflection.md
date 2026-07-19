@@ -133,9 +133,9 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 ---
 
 ### LinkedIn Post Link:
- https://www.linkedin.com/posts/ashwini-garje-b55042118_join-the-dmi-devops-micro-internship-activity-7481773920661065728-n9nd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB0xl_EBTu2ANEK4EKCYa3XVtmy_LCDtTkQ
 
-`Add your URL here`
+
+`https://www.linkedin.com/posts/ashwini-garje-b55042118_join-the-dmi-devops-micro-internship-activity-7481773920661065728-n9nd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB0xl_EBTu2ANEK4EKCYa3XVtmy_LCDtTkQ`
 
 ---
 

@@ -383,13 +383,10 @@ Cloud resources should be stopped or terminated when they are not needed to avoi
 #### LinkedIn Post URL
 
 Paste your LinkedIn post URL here:
-https://www.linkedin.com/posts/ashwini-garje-b55042118_week-3-production-maintenance-drill-devops-activity-7484314717252087808-0YLY?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB0xl_EBTu2ANEK4EKCYa3XVtmy_LCDtTkQ
 
 
-<<<<<<< HEAD:week-03-linux-for-devops/assignment-03-production-maintenance-drill-ops-checklist.md
-=======
-`Add your URL here`
->>>>>>> upstream/main:week-03-linux-and-bash-for-devops/assignment-03-production-maintenance-drill-ops-checklist.md
+
+`https://www.linkedin.com/posts/ashwini-garje-b55042118_week-3-production-maintenance-drill-devops-activity-7484314717252087808-0YLY?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB0xl_EBTu2ANEK4EKCYa3XVtmy_LCDtTkQ`
 
 ---
 

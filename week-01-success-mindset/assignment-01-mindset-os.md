@@ -155,9 +155,9 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 ### Public Link
 
 [Paste your link here:]
-(https://www.linkedin.com/posts/ashwini-garje-b55042118_my-20-version-will-look-like-todayi-share-7478126818781290497-SCoo/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB0xl_EBTu2ANEK4EKCYa3XVtmy_LCDtTkQ)
 
-`Add your URL here`
+
+`https://www.linkedin.com/posts/ashwini-garje-b55042118_my-20-version-will-look-like-todayi-share-7478126818781290497-SCoo/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB0xl_EBTu2ANEK4EKCYa3XVtmy_LCDtTkQ`
 
 ---
 
@@ -408,9 +408,9 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 ### LinkedIn Post
 
-[Paste your LinkedIn post link here:](https://www.linkedin.com/posts/ashwini-garje-b55042118_dmi-devops-agenticai-share-7478483038453112835-kqHz/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB0xl_EBTu2ANEK4EKCYa3XVtmy_LCDtTkQ)
+[Paste your LinkedIn post link here:]
 
-`Add your URL here`
+`https://www.linkedin.com/posts/ashwini-garje-b55042118_dmi-devops-agenticai-share-7478483038453112835-kqHz/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB0xl_EBTu2ANEK4EKCYa3XVtmy_LCDtTkQ`
 
 ---
 
@@ -418,7 +418,6 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 - LinkedIn Post URL: 
 
-(https://www.linkedin.com/posts/ashwini-garje-b55042118_dmi-devops-agenticai-share-7478483038453112835-kqHz/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB0xl_EBTu2ANEK4EKCYa3XVtmy_LCDtTkQ)
 
 https://www.linkedin.com/posts/ashwini-garje-b55042118_my-20-version-will-look-like-todayi-completed-share-7478126818781290497-qo5L/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB0xl_EBTu2ANEK4EKCYa3XVtmy_LCDtTkQ
 

@@ -489,14 +489,10 @@ Verify: Confirmed the server was healthy with HTTP 200 OK and and application is
 #### LinkedIn Post URL
 
 Paste your LinkedIn post URL here:
-<<<<<<< HEAD:week-03-linux-for-devops/assignment-06-ai-assisted-linux-health-check.md
-https://www.linkedin.com/posts/ashwini-garje-b55042118_this-week-i-worked-on-building-an-ai-assisted-ugcPost-7484287445879087104-WA6U/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB0xl_EBTu2ANEK4EKCYa3XVtmy_LCDtTkQ
-=======
 
-`Add your URL here`
+`https://www.linkedin.com/posts/ashwini-garje-b55042118_this-week-i-worked-on-building-an-ai-assisted-ugcPost-7484287445879087104-WA6U/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB0xl_EBTu2ANEK4EKCYa3XVtmy_LCDtTkQ`
 
 ---
->>>>>>> upstream/main:week-03-linux-and-bash-for-devops/assignment-06-ai-assisted-linux-health-check.md
 
 #### Screenshot — Published LinkedIn post
 ![LinkedlnPost](./screenshots/assig-6-linkedlnPost.PNG)
@@ -508,11 +504,7 @@ https://www.linkedin.com/posts/ashwini-garje-b55042118_this-week-i-worked-on-bui
 
 Paste the URL of your GitHub folder or repository containing the assignment files here:
 
-<<<<<<< HEAD:week-03-linux-for-devops/assignment-06-ai-assisted-linux-health-check.md
-https://github.com/ashwinigarje/devops-micro-internship-pravinmishra/blob/main/week-03-linux-for-devops/assignment-06-ai-assisted-linux-health-check.md
-=======
-`Add your URL here`
->>>>>>> upstream/main:week-03-linux-and-bash-for-devops/assignment-06-ai-assisted-linux-health-check.md
+`https://github.com/ashwinigarje/devops-micro-internship-pravinmishra/blob/main/week-03-linux-for-devops/assignment-06-ai-assisted-linux-health-check.md`
 
 ---
 
