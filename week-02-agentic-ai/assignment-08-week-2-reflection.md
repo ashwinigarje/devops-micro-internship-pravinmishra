@@ -53,9 +53,9 @@ You can publish your blog on:
 
 ### Submission Field
 
-Blog Link:https://medium.com/@ashwinigarje1424/week-2-reflection-df7391f1006b
+Blog Link:
 
-`Add your URL here`
+`https://medium.com/@ashwinigarje1424/week-2-reflection-df7391f1006b`
 
 ---
 
