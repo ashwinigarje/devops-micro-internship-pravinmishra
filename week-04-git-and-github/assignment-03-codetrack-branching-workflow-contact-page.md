@@ -20,7 +20,7 @@ Start from a clean default branch (`main` or `master`) and confirm the repositor
 
 #### Screenshot 1 — Output of `git status` and `git branch` showing a clean status and the default branch checked out
 
-![name](./screenshots/)
+![branch checked](./screenshots/assig3-ss1.1.png)
 
 ---
 
@@ -34,7 +34,7 @@ Create a branch named exactly `feature/contact-page` and switch to it.
 
 #### Screenshot 2 — Output of `git checkout -b feature/contact-page` and `git branch` showing `* feature/contact-page`
 
-![name](./screenshots/)
+![contact-page](./screenshots/assig3-ss2.1.png)
 
 ---
 
@@ -48,18 +48,18 @@ Create `contact.html` with the provided content and commit it alone using the me
 
 #### Screenshot 3 — Output of `ls` showing `contact.html`
 
-![name](./screenshots/)
+![ls](./screenshots/assig3-ss3.1.png)
 ---
 
 #### Screenshot 4 — Output of `git commit`
 
-![name](./screenshots/)
+![gitcommit](./screenshots/assig3-ss3.2.png)
 
 ---
 
 #### Screenshot 5 — Output of `git log --oneline -3` showing the new commit
 
-![name](./screenshots/)
+![git log](./screenshots/assig3-ss3.3.png)
 
 ---
 
@@ -73,19 +73,19 @@ Add the provided Contact Page link to `index.html` and commit it separately usin
 
 #### Screenshot 6 — Output of `git status` showing `index.html` as modified before staging
 
-![name](./screenshots/)
+![git status](./screenshots/assig3-ss4.1.png)
 
 ---
 
 #### Screenshot 7 — Output of `git commit`
 
-![name](./screenshots/)
+![git-commit](./screenshots/assig3-ss4.2.png)
 
 ---
 
 #### Screenshot 8 — Browser showing the Contact Page link on the homepage while on `feature/contact-page`
 
-![name](./screenshots/)
+![show contact page](./screenshots/assig3-ss4.3.png)
 
 ---
 
@@ -99,13 +99,13 @@ Switch back to the default branch and confirm that `contact.html` and the Contac
 
 #### Screenshot 9 — Terminal showing the checkout and `ls` output, proving `contact.html` is absent
 
-![name](./screenshots/)
+![ls](./screenshots/assig3-ss5.1.png)
 
 ---
 
 #### Screenshot 10 — Browser showing the homepage on the default branch with no Contact Page link
 
-![name](./screenshots/)
+![contact page](./screenshots/assig3-ss5.2.png)
 ---
 
 # Task 6 — Merge the Feature Branch into the Default Branch
@@ -118,19 +118,22 @@ Merge `feature/contact-page` into your default branch and confirm the Contact pa
 
 #### Screenshot 11 — Output of `git merge feature/contact-page`
 
-![name](./screenshots/)
+![git merge](./screenshots/assig3-ss6.1.png)
 
 ---
 
 #### Screenshot 12 — Output of `ls` showing `contact.html` after the merge
 
-![name](./screenshots/)
+![contact -html](./screenshots/assig3-ss6.2.png)
 
 ---
 
 #### Screenshot 13 — Browser showing the Contact page opened from the homepage link on the default branch
 
-![name](./screenshots/)
+![contact page](./screenshots/assig3-ss6.3.png)
+
+![contact page](./screenshots/assig3-ss6.33.png)
+
 
 ---
 
@@ -144,7 +147,7 @@ Display the repository history as a graph and locate both feature commits.
 
 #### Screenshot 14 — Full output of `git log --oneline --graph --decorate --all`
 
-![name](./screenshots/)
+![git log](./screenshots/assig3-ss7.1.png)
 
 ---
 
@@ -158,7 +161,7 @@ Delete the merged `feature/contact-page` branch to keep your branch list clean.
 
 #### Screenshot 15 (Optional) — Output showing `feature/contact-page` deleted and no longer listed
 
-![name](./)
+![delete-contact page](./screenshots/assig3-ss8.1.png)
 
 ---
 
